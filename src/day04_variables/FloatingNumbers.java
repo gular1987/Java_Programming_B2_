@@ -7,6 +7,9 @@ public class FloatingNumbers {
 
         int num1=20;
         int num2=num1;
+        System.out.println(average);
+        System.out.println(price);
+        System.out.println(num1+num2);
 
 
     }

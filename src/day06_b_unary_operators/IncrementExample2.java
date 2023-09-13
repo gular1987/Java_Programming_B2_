@@ -1,6 +1,6 @@
 package day06_b_unary_operators;
 
-public class IncrementExample_2 {
+public class IncrementExample2 {
     public static void main(String[] args) {
 
         int age=20;
