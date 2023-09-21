@@ -1,3 +1,5 @@
+package day03_comments_escapes_sequence;
+
 public class ShoppingReceipt {
     public static void main(String[] args) {
         System.out.println("**************************");//comand+D will make a copy

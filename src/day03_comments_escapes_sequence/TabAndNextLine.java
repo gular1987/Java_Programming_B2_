@@ -1,3 +1,5 @@
+package day03_comments_escapes_sequence;
+
 public class TabAndNextLine {
     public static void main(String[] args) {
         System.out.println("\tThis is tabbed 1 time");
