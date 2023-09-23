@@ -44,7 +44,7 @@ public class TernaryExample {
             if (number < 0 ) {
                 sign = "negative";
             } else {
-                sign = "zeor";
+                sign = "zero";
             }
         }
 
