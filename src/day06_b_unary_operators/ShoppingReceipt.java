@@ -1,3 +1,5 @@
+package day06_b_unary_operators;
+
 public class ShoppingReceipt {
     public static void main(String[] args) {
         System.out.println("**************************");//comand+D will make a copy
