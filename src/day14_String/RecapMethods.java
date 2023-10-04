@@ -1,8 +1,7 @@
 package day14_String;
 
 public class RecapMethods {
-    public static void main (String [] args) {
-
+    public static void main(String[] args) {
         String s = "pen"; // s is a String literal, si it is in the String Pool
         String s2 = new String ("pen");  // s2 is object in the heap, because we used 'new' keyword
 
@@ -64,4 +63,7 @@ public class RecapMethods {
 
 
     }
-}
+        
+
+    }
+
