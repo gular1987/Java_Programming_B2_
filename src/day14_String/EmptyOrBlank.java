@@ -1,6 +1,5 @@
 package day14_String;
-
-public class EmptyOrBlank {     /*
+/*
     .equals(String) --- > return boolean
     .equalIgnoreCase(String) --- > return boolean
     .length() ----- > Return int
@@ -9,45 +8,38 @@ public class EmptyOrBlank {     /*
     .startsWith(String) --- > return boolean
     .endsWith(String) --- > return boolean
     .contains(String) --- > return boolean
+    .trim() ------- > returns new String removing spaces from BEGINNING and from END ONLY.
+    .isEmpty() --- > return boolean if there is NO CHARACTER at all including space -- > "";
+    .isBlank() --- > return boolean is there ONLY EMPTY SPACES inside the double quotation
  */
+public class EmptyOrBlank {
+    public static void main(String[] args) {
 
-        public static void main(String[] args) {
+        String str = "last example";
+        System.out.println(str.isEmpty());
 
-            String s = "      Thursday     ";
-            System.out.println(s);
-            System.out.println(s.length());
-
-
-            System.out.println(s.trim());   // This method will remove the BLANK? spaces from BEGINNING and from END only.
-            System.out.println(s.length());
-
-            s = s.trim();   //"      Thursday     " ------ >   "Thursday"
-            System.out.println(s.length());
-
-            System.out.println("---------");
-            System.out.println(s.startsWith("Thu"));  //"Thursday"
+        str = ""; // REASSIGNED IT to "";
+        System.out.println(str.isEmpty());
 
 
-            String str = "     java is fun     ";
-            System.out.println(str.endsWith(" fun"));
+        str = " ";  //REASSIGNED it to " ";
+        System.out.println(str.isEmpty()); // empty space is a CHARACTER. So --- > false
 
-            str.trim();
-            System.out.println(str.endsWith(" fun")); //
 
-            str = str.trim();  // "java is fun";
-            System.out.println(str.endsWith(" fun")); //
+        str = " ";
+        System.out.println(str.isBlank()); //
+
+        str = "          ";
+        System.out.println(str.isBlank()); //
+
+
+        str = "        .          ";
+        System.out.println(str.isBlank());
 
 
 
 
-
-
-
-
-
-
-        }
 
     }
 
-
+}

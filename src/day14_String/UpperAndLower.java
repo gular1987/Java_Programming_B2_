@@ -2,7 +2,8 @@ package day14_String;
 
 public class UpperAndLower {
     public static void main(String[] args) {
-        String str="LooPCamP";
+        String str = "LooPCamP";
+
         System.out.println(str);
         System.out.println(str.toLowerCase());  // it will make the String value to be in a lowercase.
 
@@ -39,5 +40,4 @@ public class UpperAndLower {
 
 
     }
-    }
-
+}
