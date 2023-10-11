@@ -77,6 +77,7 @@ public class CountChars {
         System.out.println("Lowercase character count: " + countLower);
         System.out.println("Number character count: " + countNum);
         System.out.println("Special character count: " + countSpecial);
+        System.out.println("---------");
 
 
 

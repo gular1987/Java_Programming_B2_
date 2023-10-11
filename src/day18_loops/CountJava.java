@@ -28,6 +28,7 @@ public class CountJava {
         System.out.println();
         System.out.println(count);
         System.out.println(str);
+        System.out.println("----------------");
 
 
 

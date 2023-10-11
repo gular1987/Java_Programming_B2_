@@ -31,6 +31,7 @@ public class Palindrome {
 
         // This is with ternary
         System.out.println(original.equals(reversed) ? "It is palindrome" : "It is not palindrome");
+        System.out.println("----------------");
 
 
     }
