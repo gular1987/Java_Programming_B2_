@@ -25,7 +25,7 @@ public class SwitchInLoop {
                 case 5:
                     System.out.println("Five");
                     break;
-                case 6: // since loop continues until i = 5 --- > i never reached 6. That is why case 6 will never run/reached
+                case 6: // since loop continues until i = 5 --- > i never reached 6. That is why case 6 will never run/reached ..
                     System.out.println("Six");
 
             }

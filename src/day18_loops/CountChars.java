@@ -55,7 +55,7 @@ public class CountChars {
 
 
         // Here we used Character class which has some reusable methods to check if it is UPPER case or LOWER case or DIGIT
-        // Also, we did not declare new variables to count it, so, that is why on the print out, it shows doubled.
+        // Also, we did not declare new variables to count it, so, that is why on the print out, it shows doubled
         for (int i = 0; i < str.length(); i++) {
 
             char eachLetter = str.charAt(i); // get the character at the index number i

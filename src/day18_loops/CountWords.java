@@ -18,7 +18,7 @@ public class CountWords {    /*
             String userSentence = input.nextLine().trim();
 
             // This has multiple    words
-            // 01234567890.......
+            // 01234567890....... ..
         /*
             count words
                 - count spaces + 1

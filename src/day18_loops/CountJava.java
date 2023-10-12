@@ -8,7 +8,7 @@ public class CountJava {
             "java is a java language.java"
              if contains
                   - > count increase by 1
-                  - >  is a java language.java
+                  - >  is a java language.java  ..
 
          */
         String str = "java is a java language.java";

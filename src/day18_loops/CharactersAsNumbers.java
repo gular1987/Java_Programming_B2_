@@ -6,7 +6,7 @@ package day18_loops;
                 Ex:
                 Input:
                 java
-                Output:
+                Output
                 106 97 118 97
  */
 public class CharactersAsNumbers {
