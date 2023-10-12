@@ -37,7 +37,6 @@ public class CountWords {    /*
             System.out.println("The number of empty spaces: " + countEmpty);
             System.out.println("You have " + (countEmpty+1) + " words.");
 
-            System.out.println("----------------");
 
         }
     }

@@ -25,6 +25,6 @@ public class Syllables {
         }
         System.out.println("Syllables: " + (countDash+1));
 
-        System.out.println("----------------");
+       
     }
 }
