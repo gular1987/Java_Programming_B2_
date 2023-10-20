@@ -6,7 +6,7 @@ public class AWS {
         String zones = "us-east1, us-west1, us-south1, us-north1";
         String app = "Etsy";
 
-        // Required Output: "$app is deploying on $us-east1"
+        // Required Output:"$app is deploying on $us-east1"
 
         // I need to first get each zone - I can use .split method to separate each zone and store all of them into an array
         String [] zoneArr = zones.split(", ");  //["us-east1", "us-west1", .......] -- > size: 4

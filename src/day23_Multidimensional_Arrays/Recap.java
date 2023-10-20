@@ -36,7 +36,7 @@ public class Recap {
         Arrays.sort(words);
         System.out.println("After String Sort: " + Arrays.toString(words));
 
-        // " " > "special character" > numbers (small > big) > UPPERCASE (alphabetic) > lowercase (alphabetic)
+        //  " " > "special character" > numbers (small > big) > UPPERCASE (alphabetic) > lowercase (alphabetic)
 
         System.out.println();
         String [] words2 = {"hello", "java", "Thursday", " ", "%" , "23" , "12"};

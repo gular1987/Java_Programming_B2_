@@ -47,7 +47,7 @@ public class CopyExample {
 
 
         System.out.println();
-        int [] x = Arrays.copyOf(z, z.length+2);  // 5
+        int [] x = Arrays.copyOf(z, z.length+2); // 5
         System.out.println(Arrays.toString(x));
 
 
