@@ -44,5 +44,10 @@ public class ArrayIntro {
 
         System.out.println("" + Arrays.toString(cities2).charAt(0));  // [
 
+
+
+
+
+
     }
 }
