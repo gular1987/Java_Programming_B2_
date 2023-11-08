@@ -7,11 +7,12 @@ public class MethodChaining {
 
 
         //Here we just did two different method on a different reassignments
-        //str = str.trim();
-        //str = str.toUpperCase();
+      
+        str+=str.trim().substring( str.length()) ;
 
         // as long as the method returns a STRING you can keep chaining
-        str.trim().toUpperCase().toLowerCase().substring(0, 3).charAt(0);
+        //str.trim().toUpperCase().toLowerCase().substring(0, 3).charAt(0);
+        System.out.println(str.toUpperCase());
 
 
     }
