@@ -1,5 +1,6 @@
 package my_utilities;
-import day33_b_encapsulation.login.AccessModifier;
+
+import day33_b_encapsulation.access_modifiers.AccessModifier;
 
 public class AccessOutsidePackage {
     /**
@@ -7,8 +8,7 @@ public class AccessOutsidePackage {
      */
     public static void main(String[] args) {
 
-        //AccessModifier obj = new AccessModifier();
-        AccessModifier obj=new AccessModifier();
+        AccessModifier obj = new AccessModifier();
         System.out.println(obj.a);  // CAN ACCESS
         //System.out.println(obj.b);  // CANNOT  ACCESS
         //System.out.println(obj.c);  // CANNOT ACCESS

@@ -1,4 +1,4 @@
-package day33_b_encapsulation.login;
+package day33_b_encapsulation.access_modifiers;
 
 public class AccessModifier {
 
