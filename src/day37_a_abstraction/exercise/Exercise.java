@@ -15,4 +15,4 @@ public abstract class Exercise {
         System.out.println("Exercise if better for your health");
     }
     
-}
+ }

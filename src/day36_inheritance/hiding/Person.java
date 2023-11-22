@@ -4,7 +4,7 @@ public class Person {
     String name = "Tom Jerry";
 }
 
-class Child extends Person {
+class  Child extends Person {
 
     // Similar to static, all the variables inherited to child class and child class
     // has variable with the same name, it will hide the one from parent.
@@ -21,6 +21,6 @@ class Runner {
 
         Child child = new Child();
         System.out.println(child.name);
-    }
+     }
 
-}
+     }

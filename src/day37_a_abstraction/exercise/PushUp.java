@@ -23,4 +23,4 @@ public class PushUp extends Exercise {
         System.out.println(name + " exercise if better for your health");
     }
 
-}
+   }
