@@ -4,4 +4,4 @@ public interface AllowUserToSell {
 
     void sell ();
 
-}
+ }

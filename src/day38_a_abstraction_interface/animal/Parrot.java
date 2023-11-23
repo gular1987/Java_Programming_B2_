@@ -20,4 +20,4 @@ public class Parrot extends Bird implements Flyable, Language {
     public void bye() {
         System.out.println("BYE BYE");
     }
-}
+ }

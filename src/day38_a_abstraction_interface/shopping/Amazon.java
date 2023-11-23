@@ -21,7 +21,7 @@ public final class Amazon extends OnlineShopping {
     public void returnItem() {
         System.out.println("Returning item to Amazon");
     }
-}
+  }
 
 
 // Amazon IS-A OnlineShopping

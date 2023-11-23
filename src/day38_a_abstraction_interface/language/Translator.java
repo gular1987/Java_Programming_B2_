@@ -17,5 +17,5 @@ public class Translator {
 
 
         System.out.println(Language.PLANET);
-    }
+     }
 }

@@ -17,7 +17,7 @@ abstract class TestA implements AllowUserToSell, Shipping {
 // Here I am implementing ConsumerApp interface which also inherits from interfaces called: AllowUserToSell, Shipping
 abstract class TestB implements ConsumerApp {
 
-}
+   }
 
 
 // interface can "extends" multiple interface

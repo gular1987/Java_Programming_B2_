@@ -13,4 +13,4 @@ public class Spanish implements Language{
         System.out.println("Adios");
     }
 
-}
+ }

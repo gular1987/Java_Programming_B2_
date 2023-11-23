@@ -4,4 +4,4 @@ public interface Flyable {
     String NAME = "test"; //public static final  - CONSTANT
 
     void fly (); //public abstract
-}
+ }

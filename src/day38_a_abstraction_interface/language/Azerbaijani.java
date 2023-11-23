@@ -1,6 +1,6 @@
 package day38_a_abstraction_interface.language;
 
-public class Azerbaijani implements Language {
+public class  Azerbaijani implements Language {
 
 
     @Override
@@ -12,4 +12,4 @@ public class Azerbaijani implements Language {
     public void bye() {
         System.out.println("Gule gule");
     }
-}
+ }

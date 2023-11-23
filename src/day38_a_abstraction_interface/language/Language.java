@@ -9,4 +9,4 @@ public interface Language {
 
     void bye (); //"public abstract" is at the beginning
 
-}
+ }
