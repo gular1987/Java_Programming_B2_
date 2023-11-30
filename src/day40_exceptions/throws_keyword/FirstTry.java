@@ -1,4 +1,4 @@
-package day39_b_exception.learn_exception;
+package day40_exceptions.throws_keyword;
 
 import java.util.Scanner;
 
