@@ -1,0 +1,29 @@
+
+        Collection
+
+            Data Structure: a way to handle / group multiple data
+
+                1)Array:    store data that has similar data types, but the size is fixed. / built in fracture not object?!
+
+                2)Collection:  different types that handle and manipulate data differently.
+
+                *Collection Framework:
+                    - A group of interfaces and classes that define how the individual Collection will work.
+                        (How data structure will handle data)
+                    -All collection can only hold object types, not primitives (but we can wrap it and use it)
+
+                Main interfaces of Collection Framework:
+                    -Collection: the parent of all Collection types: It defines the main actions of collection.
+                        Ex: add, remove, size
+                    -List:  Ordered (has index), allows duplicates.
+                    -Set:   Unordered (does not have index), not allow duplicates.
+
+                *IQ:  What is the difference between Collection and Collections?
+                    Collection is the interface that all Collection objects (classes that implements) implement.
+                    Collections is a utility class, that has some useful methods that work with collection objects.
+                        -this is not a part of the Collection framework. (frequncy( ), max( ), min( ))
+
+                        We also used Arrays class -- utility class for array objects.
+
+-----------------------------------------------------------------------
+New Topic
