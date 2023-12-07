@@ -51,7 +51,7 @@ public class FrequencyOfCharacters {
                 // use the .get(key); method to get the VALUE and add 1
             }
 
-//            This is doing exact same thing as above
+//            This  is doing exact same thing as above
 //            if (counter.containsKey(each)) {
 //                counter.put( each,   counter.get(each)  + 1      );
 //            } else {

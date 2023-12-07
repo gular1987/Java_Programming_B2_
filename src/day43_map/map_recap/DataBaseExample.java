@@ -62,7 +62,7 @@ public class DataBaseExample {
         for ( Map <String, String> each : listOfPeople) {
             if (each.get("LAST_NAME").contains("e")){
                 System.out.println(each.get("LAST_NAME"));
-            }
+             }
         }
 
 

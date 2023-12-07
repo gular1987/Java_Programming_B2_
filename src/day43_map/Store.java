@@ -22,7 +22,7 @@ public class Store {
 
 
 
-        // loop through the store and give me the items.
+        // loop through the store and give me the items .
 
 
         //Option 1 - with the help of .keySet(); --- >  it will return us all the KEYS

@@ -9,5 +9,5 @@ public enum Browser {
 
     CHROME, FIREFOX, SAFARI, EDGE
 
-    // public final static int NUMBER = 10;
+    //   public final static int NUMBER = 10;
 }
